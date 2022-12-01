@@ -90,6 +90,11 @@ main h2 a:nth-child(7) {
     font-weight: 600;
 }
 
+button {
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
 main h3 {
     color: grey;
     padding-bottom: 20px;
@@ -163,7 +168,7 @@ input {
     border: none;
     border-bottom: dotted;
 }
-button {
+.insert button {
     background-color: rgb(15, 103, 255);
     color: #fff;
     border-color: rgb(15, 103, 255);
@@ -230,4 +235,6 @@ footer a {
     text-decoration:underline;
 }
 
-
+code {
+    inp
+}
