@@ -5,6 +5,10 @@ body {
     background-image: url(../img/sfondo.png);
     margin: 0;
     font-family: Poppins;
+    font-weight: 300;
+    font-size: 1.3rem;
+    letter-spacing:1px;
+    
     
 }
 /* HEADER */
@@ -105,6 +109,10 @@ table {
     margin-right: auto;
     align-items: center;
     margin: 20px;
+    font-weight: 300;
+    font-size: 1.4rem;
+    letter-spacing:1px;
+    margin-bottom: 60px;
 
 }
 
@@ -122,7 +130,7 @@ th{
 
 td {
     text-align: center;
-    padding: 10px;
+    padding: 30px;
     border-bottom: 1px solid rgba(186, 186, 255, 0.342);
 }
 
@@ -132,6 +140,7 @@ tr:nth-child(odd){
 
 tr:last-child {
     border-bottom: 2px solid rgb(0, 89, 255) ;
+    margin-bottom: 70px;
 }
 
 iframe {
@@ -147,6 +156,7 @@ iframe {
     align-items: center;
     padding: 15px;
     margin: 20px;
+    
 }
 
 input {
@@ -161,10 +171,12 @@ button {
 /* ELEMENTI NELL' ASIDE */
 .correlated {
     display: block;
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     padding-bottom: 20px;
     text-align: center;
+    font-weight: 600;
+
 }
 
 .scatolo a {
@@ -173,11 +185,15 @@ button {
     box-sizing: border-box;
 }
 
+.scatolo p {
+    margin-top: 10px;
+}
+
 
 .date {
     display: block;
     font-size: 0.8rem;
-    padding-left: 60%;
+    padding-left: 55%;
     padding-top: 20px;
 }
 
@@ -203,8 +219,10 @@ footer {
 }
 
 footer p {
+    padding: 10px;
     display: block;
     text-align: center;
+    font-size: small;
 }
 
 footer a {
