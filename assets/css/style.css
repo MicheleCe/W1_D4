@@ -1,0 +1,215 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+body {
+    background-image: url(../img/sfondo.png);
+    margin: 0;
+    font-family: Poppins;
+    
+}
+/* HEADER */
+header {
+    display: block;
+    align-items: center;
+    background-image: linear-gradient(rgb(2, 114, 158), rgb(31, 78, 90));
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    overflow:auto;
+    box-shadow: 7px 7px 0px rgba(128, 128, 128, 0.177);
+}
+
+.logo {
+    display: block;
+    align-items: center;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    
+}
+
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 900;
+}
+
+.head :first-child {
+    padding-bottom: 25px;
+    padding-top: 35px;
+
+    /* si applica anche agli altri children? */
+}
+
+.head :last-child{
+    padding-bottom: 40px;
+}
+
+.head > p {
+    padding:5px;
+}
+
+.head a {
+    text-decoration: none;
+    color: inherit;
+}
+/* MAIN */
+main {
+    display: block;
+    align-items: center;
+    background-color: #fff;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    overflow:auto;
+    box-shadow: 3px 7px 7px 7px rgba(128, 128, 128, 0.818);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+main h2 a:nth-child(7) {
+    color: rgb(0, 165, 201);
+    text-decoration:underline;
+}
+
+/* non riesco a selezionare tool online */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.title {
+    font-size: 2.3rem;
+    padding: 20px 10px 20px 10px;
+    font-weight: 600;
+}
+
+main h3 {
+    color: grey;
+    padding-bottom: 20px;
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(190, 0, 190);
+    font-weight: 600;
+}
+
+/* TABELLE */
+
+table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin: 20px;
+
+}
+
+caption {
+    font-weight: 600;
+    font-style: italic;
+}
+
+th{
+    background-color: rgb(70, 134, 255);
+    border-left: 1px solid rgba(186, 186, 255, 0.342);
+    padding: 20px;
+    color: #fff;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(186, 186, 255, 0.342);
+}
+
+tr:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.147);
+}
+
+tr:last-child {
+    border-bottom: 2px solid rgb(0, 89, 255) ;
+}
+
+iframe {
+    margin: 20px 0px 20px;
+    border-radius: 20px;
+}
+
+/* FORM */
+
+.scatolo {
+    display: block;
+    background-color: rgba(198, 198, 198, 0.377);
+    align-items: center;
+    padding: 15px;
+    margin: 20px;
+}
+
+input {
+    border: none;
+    border-bottom: dotted;
+}
+button {
+    background-color: rgb(15, 103, 255);
+    color: #fff;
+    border-color: rgb(15, 103, 255);
+}
+/* ELEMENTI NELL' ASIDE */
+.correlated {
+    display: block;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.scatolo a {
+    color: rgb(0, 165, 201);
+    text-decoration:underline;
+    box-sizing: border-box;
+}
+
+
+.date {
+    display: block;
+    font-size: 0.8rem;
+    padding-left: 60%;
+    padding-top: 20px;
+}
+
+.insert {
+    padding-top: 30px;
+    display: block;
+}
+
+/* FOOTER */
+footer {
+    display: block;
+    background-image: linear-gradient(rgb(2, 114, 158), rgb(20, 60, 70));
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    overflow:auto;
+    box-shadow: 7px 7px 0px rgba(128, 128, 128, 0.177);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer p {
+    display: block;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(198, 0, 201);
+    text-decoration:underline;
+}
+
+
