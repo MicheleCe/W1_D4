@@ -90,7 +90,7 @@ main h2 a:nth-child(7) {
     font-weight: 600;
 }
 
-button {
+ul button {
     font-size: 1rem;
     border-radius: 5px;
 }
