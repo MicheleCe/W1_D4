@@ -16,7 +16,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    overflow:auto;
     box-shadow: 7px 7px 0px rgba(128, 128, 128, 0.177);
 }
 
@@ -27,6 +26,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
+    padding-top: 35px;
     
 }
 
@@ -46,7 +46,7 @@ header {
 }
 
 .head :last-child{
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .head > p {
