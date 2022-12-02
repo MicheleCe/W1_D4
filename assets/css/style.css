@@ -60,6 +60,8 @@ header {
 .head a {
     text-decoration: none;
     color: inherit;
+    margin: 0;
+    line-height: 0;
 }
 /* MAIN */
 main {
@@ -238,6 +240,4 @@ footer a {
     text-decoration:underline;
 }
 
-code {
-    inp
-}
+
