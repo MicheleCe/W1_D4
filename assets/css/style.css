@@ -13,8 +13,6 @@ body {
 }
 /* HEADER */
 header {
-    display: block;
-    align-items: center;
     background-image: linear-gradient(rgb(2, 114, 158), rgb(31, 78, 90));
     width: 90%;
     margin-left: auto;
@@ -29,7 +27,6 @@ header {
     height: 90px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 35px;
     padding-top: 35px;
     
 }
